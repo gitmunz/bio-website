@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Márton Münz, PhD | Computational Biology & Cloud Computing Consultant
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f8f9fa;
+        color: #1a1a1a;
+      }
+      header {
+        background: #c6e3f6;
+
+        backdrop-filter: blur(10px);
+
+        padding: 3rem 1rem 2rem;
+
+        text-align: center;
+
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+        position: relative;
+      }
+
+      header h1 {
+        margin: 0 0 0.5rem;
+
+        font-size: 3rem;
+
+        font-family: "Clash Display", "Helvetica Neue", Helvetica, Arial,
+          sans-serif;
+
+        font-weight: 700;
+
+        color: #5c5f66;
+      }
+
+      header p {
+        margin: 0.5rem 0 1.5rem;
+
+        font-size: 1.2rem;
+
+        color: #1a1a1a;
+      }
+
+      .header-links {
+        display: flex;
+
+        justify-content: center;
+
+        gap: 1.5rem;
+
+        margin-top: 1rem;
+      }
+
+      .header-links a {
+        color: #146c60;
+
+        text-decoration: none;
+
+        font-size: 1.2rem;
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 0.5rem;
+      }
+
+      .header-links img {
+        width: 20px;
+
+        height: 20px;
+      }
+      section {
+        padding: 2rem 2rem;
+        max-width: 900px;
+        margin: auto;
+        background: #c6e3f6;
+        margin-top: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+        text-align: center;
+      }
+      section h2 {
+        color: #5c5f66;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+      }
+
+      section p {
+        text-align: left;
+        font-size: 1.2rem;
+      }
+
+      b {
+        color: #c6e3f6;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: left;
+      }
+      li {
+        margin: 0.8rem 0;
+        font-size: 1.2rem;
+      }
+      .highlight {
+        color: #2541b2;
+        font-weight: bold;
+      }
+      .cta {
+        display: none;
+      }
+      .button-link {
+        background: #146c60;
+        color: #c6e3f6;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        transition: background 0.3s ease;
+        display: inline-block;
+        margin-top: 1.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .button-link:hover {
+        background: #e4f2ee;
+        color: #1a1a1a;
+      }
+      footer {
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 2rem 1rem;
+        color: rgba(9, 9, 9, 0.6);
+      }
+      a:not(header a) {
+        color: #146c60;
+        text-decoration: underline;
+        font-size: 1.2rem;
+        text-align: left;
+      }
+      header a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="consulting.html">
+        <h1>Márton Münz, PhD</h1>
+        <p>Computational Biology | Cloud Infrastructure | AI Consulting</p>
+        <div class="header-links">
+          <a href="mailto:hello@martonmunz.com">
+            <img
+              src="https://img.icons8.com/?size=100&id=eKlyMs0XteXZ&format=png&color=000000"
+              alt="Email"
+            />Email
+          </a>
+          <a href="https://www.linkedin.com/in/marton-munz-phd" target="_blank">
+            <img
+              src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"
+              alt="LinkedIn"
+            />LinkedIn
+          </a>
+        </div>
+      </a>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I have 15+ years of experience at the intersection of computational
+        biology, genomics, and cloud infrastructure. I help biotech companies
+        turn complex scientific problems into technical solutions, creating
+        scalable bioinformatics pipelines, AI workflows, and cloud-native
+        systems across AWS and high-performance computing environments. I'm
+        passionate about building robust, automated platforms that accelerate
+        discovery and improve patient outcomes.
+      </p>
+      <p>
+        Over the years, my work has supported clinical screening of thousands of
+        breast and ovarian cancer patients and empowered over 20 biotech and
+        research clients with reliable tools and pipelines to address real-world
+        scientific challenges.
+      </p>
+    </section>
+
+    <section>
+      <h2>Services</h2>
+      <ul>
+        <li>
+          <span class="highlight"
+            >- Next-Generation Sequencing (NGS) Analysis:</span
+          >
+          WES, WGS, RNA-seq, scRNA-seq, and more
+        </li>
+
+        <li>
+          <span class="highlight">- Data Engineering:</span>
+          data pipelines for large computational biology datasets, data
+          modeling, SQL, NoSQL and graph databases, cloud-based databases, data
+          lakes, API design and integration
+        </li>
+
+        <li>
+          <span class="highlight">- Cloud Architecture and Engineering:</span>
+          designing and building scalable, secure, and cost-efficient AWS cloud
+          architectures for managing biological data, using serverless setups,
+          HPC, cloud GPUs, automation, and more.
+        </li>
+        <li>
+          <span class="highlight">- ML and Data Science:</span>
+          applying machine learning and statistical models to biological and
+          clinical data; feature engineering, model training, evaluation, and
+          deployment
+        </li>
+        <li>
+          <span class="highlight">
+            <a href="llm.html">- AI-powered Data Workflows in Biotech:</a></span
+          >
+          secure LLM deployment, custom RAG systems, agentic workflows,
+          knowledge graph integration, conversational AI tools,
+          <a href="gpu.html">GPU-intensive AI model deployment</a>, and more
+        </li>
+        <li>
+          <span class="highlight">- Bioinformatics Pipelines:</span> building
+          and deploying Nextflow or Snakemake pipelines for bioinformatics
+          analysis; integrating pre-built nf-core pipelines/modules
+        </li>
+        <li>
+          <span class="highlight">- Full Stack Software Development:</span>
+          designing and developing intuitive web applications for processing,
+          visualizing and interacting with biological data
+        </li>
+
+        <li>
+          <span class="highlight">- DevOps Support:</span>
+          deployment of data intensive applications in the cloud; monitoring and
+          logging bioinformatics workflows, containerizing applications with
+          Docker, infrastructure as code (IaC)
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Working Together</h2>
+      <ul>
+        <li>
+          <span class="highlight">- Free Initial Consultation:</span> Let's
+          discuss your project needs and goals without any obligation
+        </li>
+        <li>
+          <span class="highlight">- Custom Proposal:</span> Receive a tailored
+          plan outlining strategy, deliverables, timeline, and pricing
+        </li>
+        <li>
+          <span class="highlight">- Agile Collaboration:</span> Work with me in
+          an agile, transparent way with regular updates and milestones
+        </li>
+        <li>
+          <span class="highlight">- Delivery and Support:</span> I ensure
+          seamless implementation and offer ongoing support if needed
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Testimonials</h2>
+      <p>
+        Read what clients say about working with me on the
+        <a href="testimonials.html">testimonials page</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Let's Talk</h2>
+      <p>
+        If you would like to learn more or need additional details, please drop
+        an email to
+        <a href="mailto:hello@martonmunz.com">hello@martonmunz.com</a>.
+      </p>
+      <p>You can also book an initial consultatiion:</p>
+      <a class="button-link" href="https://tidycal.com/martonmunz"
+        >Book Consultation</a
+      >
+    </section>
+
+    <footer>
+      <p>© 2025 Márton Münz</p>
+    </footer>
+  </body>
+</html>

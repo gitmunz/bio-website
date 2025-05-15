@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Márton Münz, PhD | Computational Biology & Cloud Computing Consultant
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f8f9fa;
+        color: #1a1a1a;
+      }
+      header {
+        background: #c6e3f6;
+
+        backdrop-filter: blur(10px);
+
+        padding: 3rem 1rem 2rem;
+
+        text-align: center;
+
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+        position: relative;
+      }
+
+      header h1 {
+        margin: 0 0 0.5rem;
+
+        font-size: 3rem;
+
+        font-family: "Clash Display", "Helvetica Neue", Helvetica, Arial,
+          sans-serif;
+
+        font-weight: 700;
+
+        color: #5c5f66;
+      }
+
+      header p {
+        margin: 0.5rem 0 1.5rem;
+
+        font-size: 1.2rem;
+
+        color: #1a1a1a;
+      }
+
+      .header-links {
+        display: flex;
+
+        justify-content: center;
+
+        gap: 1.5rem;
+
+        margin-top: 1rem;
+      }
+
+      .header-links a {
+        color: #146c60;
+
+        text-decoration: none;
+
+        font-size: 1.2rem;
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 0.5rem;
+      }
+
+      .header-links img {
+        width: 20px;
+
+        height: 20px;
+      }
+      section {
+        padding: 2rem 2rem;
+        max-width: 900px;
+        margin: auto;
+        background: #c6e3f6;
+        margin-top: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+        text-align: center;
+      }
+      section h2 {
+        color: #5c5f66;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+      }
+
+      section p {
+        text-align: left;
+        font-size: 1.2rem;
+      }
+
+      b {
+        color: #c6e3f6;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: left;
+      }
+      li {
+        margin: 0.8rem 0;
+        font-size: 1.2rem;
+      }
+      .highlight {
+        color: #2541b2;
+        font-weight: bold;
+      }
+      .cta {
+        display: none;
+      }
+      .button-link {
+        background: #146c60;
+        color: #c6e3f6;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        transition: background 0.3s ease;
+        display: inline-block;
+        margin-top: 1.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .button-link:hover {
+        background: #e4f2ee;
+        color: #1a1a1a;
+        text-align: left;
+      }
+      footer {
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 2rem 1rem;
+        color: rgba(9, 9, 9, 0.6);
+      }
+      a:not(header a) {
+        color: #146c60;
+        text-decoration: underline;
+        font-size: 1.2rem;
+        text-align: left;
+      }
+      header a {
+        text-decoration: none;
+      }
+      h3 {
+        margin-top: 2rem;
+        text-align: left;
+        font-size: 1.4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="consulting.html">
+        <h1>Márton Münz, PhD</h1>
+        <p>Computational Biology | Cloud Infrastructure | AI Consulting</p>
+        <div class="header-links">
+          <a href="mailto:hello@martonmunz.com">
+            <img
+              src="https://img.icons8.com/?size=100&id=eKlyMs0XteXZ&format=png&color=000000"
+              alt="Email"
+            />Email
+          </a>
+          <a href="https://www.linkedin.com/in/marton-munz-phd" target="_blank">
+            <img
+              src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"
+              alt="LinkedIn"
+            />LinkedIn
+          </a>
+        </div>
+      </a>
+    </header>
+
+    <section>
+      <h2>GPU-intensive AI model deployment</h2>
+
+      <p>
+        Large-scale generative AI models are rapidly transforming biotech by
+        enabling powerful new capabilities in various areas including drug
+        discovery, genomics, medical imaging, personalized medicine. In drug
+        development, for example, AI models can accelerate target discovery,
+        molecule design, and virtual screening.
+      </p>
+      <p>
+        Trained on massive datasets with deep learning techniques these neural
+        network-based models require significant computational power not only
+        during training but also during inference - the process of generating
+        outputs - which can be time-intensive and typically relies on
+        high-performance hardware called GPUs (Graphics Processing Units).
+      </p>
+      <p>
+        At the same time, the explosion of these large scale AI models is has
+        driven demand for on-demand GPU compute resources. The major cloud
+        providers (AWS, GCP, Azure) as well as specialized GPU cloud providers
+        (e.g. Modal, Lambda Labs, CoreWeave, RunPod) let users rent powerful
+        GPUs by the hour or minute. For biotech companies, relying on such
+        cloud-based GPU compute resources for their customized AI applications
+        can be convenient for the following reasons:
+      </p>
+
+      <ul>
+        <li>
+          <span class="highlight">- Scalability and flexibility:</span>
+          Biotech companies can dynamically scale their compute resources up or
+          down based on project demands, avoiding the upfront costs and
+          inflexibility of purchasing dedicated hardware. Minute-level (or even
+          second-level) billing and scale-to-zero eliminate wasted idle cost.
+        </li>
+
+        <ul>
+          <li>
+            <span class="highlight"
+              >- Access to cutting-edge infrastructure:</span
+            >
+            Cloud providers offer access to the latest GPU hardware (e.g. NVIDIA
+            A100, H100), which might otherwise be cost-prohibitive.
+          </li>
+
+          <li>
+            <span class="highlight">- Faster experimentation cycles:</span>
+            researchers can quickly prototype, test, and iterate AI models
+            without infrastructure bottlenecks, accelerating discovery
+            timelines.
+          </li>
+
+          <li>
+            <span class="highlight">- Operational efficiency:</span>
+            Managed GPU cloud services reduce the burden of system maintenance,
+            updates, and hardware failures, allowing biotech teams to focus on
+            scientific innovation rather than IT operations.
+          </li>
+        </ul>
+      </ul>
+
+      <h3>What I offer</h3>
+
+      <p>
+        I offer end-to-end support for deploying GPU-intensive AI models in
+        biotech, helping teams build scalable, cost-effective cloud
+        infrastructure for training and inference. From selecting the right GPU
+        cloud provider to optimizing performance and minimizing idle costs, I
+        ensure your AI workloads run efficiently and integrate smoothly with
+        your scientific workflows.
+      </p>
+
+      <br />
+
+      <a href="consulting.html">← Back to Main Page</a>
+    </section>
+
+    <footer>
+      <p>© 2025 Márton Münz</p>
+    </footer>
+  </body>
+</html>
